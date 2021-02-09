@@ -1,0 +1,17 @@
+Solution isminde int dizisi alan ve int dönen aşağıdaki gibi bir fonksiyon yazmalısınız.
+
+	class Solution { public int solution(int[] A); }
+
+Bu int dizisi aşağıdaki şartlardan oluşuyor ve verilen dizinin içinden tek haneli en büyük sayısı bulmak amacımız.
+
+Örnek Dizi:
+
+	[-5, -89, 4011, -200, 74, -19, 0, 1, 581]
+	
+burdaki diziyi verdiğimiz zaman sonuç 1 dönmeli.
+
+Şartlarımız aşağıdaki gibi:
+
+	*N dizisi [1-1000] elemanlıdır.
+	*Her bir eleman [-10.000 ile 10.000] arasındadır.
+
