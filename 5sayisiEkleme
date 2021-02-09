@@ -1,0 +1,7 @@
+[-8.000 ile 8.000] arasında verilen N integer sayısının hangi hanesine 5 rakamını eklersek sayı en büyük olur.
+
+Örnekler:
+
+* N = 179, fonksiyon 5179 dönmeli,
+* N = 880, fonksiyon 8850 dönmeli,
+* N = -777, fonksiyon -5777 dönmeli,
