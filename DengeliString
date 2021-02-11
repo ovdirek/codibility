@@ -1,0 +1,32 @@
+Bir dizi içerisindeki her bir harfin hem küçük hem de büyük halini barındırıyorsa buna dengeli string diyoruz.
+
+Mesela, "attCATac" bir dengeli dizidir. İçerisindeki 'a', 't' ve 'c' karakterlerin hem küçük hali hem de büyük hali dizide vardır.
+
+	class Solution { public int solution(string S); }
+	
+Yukardaki fonksiyon verilen dizinin içerisindeki en kısa dengeli stringin uzunluğunu veriyor.
+Eğer herhangi dengeli bir string içermiyorsa sonu. -1 olmalıdır.
+
+Örnekler:
+
+1. S = "ABaabzzaaaa"
+	sonuc = 5
+	dengeli string = "ABaab"
+	
+2. S = "Hacocah" 
+	sonuc = -1
+	herhangi bir dengeli string içermiyor.
+	
+3. S = "abcdefghijklmnopqrstuvwxyz"
+	sonuc = -1
+	herhangi bir dengeli string içermiyor.
+
+4. S = "AzcCbaBZ"
+	sonuc = 8
+	dengeli string = "AzcCbaBZ"
+	
+String uzunluğu [1-200];
+String içerisindeki karakterler;
+['a'...'z' ve 'A'...'Z']
+	
+
